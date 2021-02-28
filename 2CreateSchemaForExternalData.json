@@ -1,0 +1,61 @@
+{
+    "baseType": "microsoft.graph.externalItem",
+    "properties": [
+      {
+        "name": "uniqid",
+        "type": "String",
+        "isSearchable": "false",
+        "isRetrievable": "false",
+        "isQueryable": "false"
+      },
+      {
+        "name": "producturl",
+        "type": "String",
+        "isSearchable": "false",
+        "isRetrievable": "true",
+        "isQueryable": "false"
+      },
+      {
+        "name": "productname",
+        "type": "String",
+        "isSearchable": "true",
+        "isRetrievable": "true",
+        "isQueryable": "false"
+      },
+      {
+        "name": "retailprice",
+        "type": "String",
+        "isSearchable": "false",
+        "isRetrievable": "true",
+        "isQueryable": "false"
+      },
+      {
+        "name": "discountedprice",
+        "type": "String",
+        "isSearchable": "false",
+        "isRetrievable": "true",
+        "isQueryable": "false"
+      },    
+      {
+        "name": "image",
+        "type": "String",
+        "isSearchable": "false",
+        "isRetrievable": "true",
+        "isQueryable": "false"
+      },
+      {
+        "name": "description",
+        "type": "String",
+        "isSearchable": "true",
+        "isRetrievable": "true",
+        "isQueryable": "false"
+      },
+      {
+        "name": "brand",
+        "type": "String",
+        "isSearchable": "false",
+        "isRetrievable": "true",
+        "isQueryable": "true"
+      }
+    ]
+  }

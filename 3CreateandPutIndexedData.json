@@ -1,0 +1,25 @@
+{
+    "@odata.type": "microsoft.graph.externalItem",
+    "acl": [
+      {
+        "type": "user",
+        "value": "your-user-GUID-here-347aac675901",
+        "accessType": "grant",
+        "identitySource": "azureActiveDirectory"
+      }
+    ],
+    "properties": {
+      "uniqid": "{{uniqid}}",
+      "producturl": "{{producturl}}",
+      "productname": "{{productname}}",
+      "retailprice": "{{retailprice}}",
+      "discountedprice": "{{discountedprice}}",
+      "image": "{{image}}",
+      "description": "{{description}}",
+      "brand": "{{brand}}"
+    },
+    "content": {
+      "value": "Error in gateway...",
+      "type": "text"
+    }
+  }

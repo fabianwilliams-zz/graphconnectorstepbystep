@@ -1,0 +1,55 @@
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 1,
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "{image}",
+                            "size": "Large",
+                            "horizontalAlignment": "Left"
+                        }
+                    ],
+                    "spacing": "None"
+                },
+                {
+                    "type": "Column",
+                    "width": 9,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "[{productname}]({producturl})",
+                            "color": "Accent",
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "maxLines": 3
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "{Description}",
+                            "wrap": true,
+                            "maxLines": 3,
+                            "spacing": "Medium"
+                        }
+                    ],
+                    "horizontalAlignment": "Center",
+                    "spacing": "Medium"
+                }
+            ],
+            "spacing": "None"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "$data": {
+        "description": "Marketing team at Contoso.., and looking at the Contoso Marketing documents on the team site. This contains the data from FY20 and will taken over to FY21...Marketing Planning is ongoing for FY20..",
+        "image": "https://searchuxcdn.blob.core.windows.net/designerapp/images/long-stock-image.png",
+        "producturl": "https://modernacdesigner.azurewebsites.net",
+        "productname": "Contoso Research Memo"
+    }
+}
